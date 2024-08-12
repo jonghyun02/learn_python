@@ -1,5 +1,7 @@
 a = "I'm learning python python python"
 
+print(a+"test") #덧셈
+print(a*2) #곱셈
 print(a[0]) #문자 추출 가능. C++과 달리 str형으로 추출됨.
 print(a[-1]) #맨끝 인덱스 -1로 표현 가능
 print(a[0:4]) #문자열 슬라이싱 가능. substr이랑 같은 역할. [a:b] a부터 'b-1'까지 출력
