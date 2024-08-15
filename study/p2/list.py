@@ -57,3 +57,6 @@ print(d.count(1)) #해당 인자 값이 리스트 안에 몇 개 있는지 리�
 
 a.extend(d) #리스트에 리스트를 더하는 기능. 인자에는 리스트만 올 수 있음. a += d와 동일
 print(a)
+
+length = [1,2,3,4,5]
+print(len(length)) #크기 반환

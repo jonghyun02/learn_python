@@ -1,0 +1,6 @@
+a,b = map(int, input().split())
+c,d = input().split()
+print(type(a),type(b))
+print(a+b)
+print(type(c),type(d))
+print(c+d)
