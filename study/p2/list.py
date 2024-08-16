@@ -60,3 +60,19 @@ print(a)
 
 length = [1,2,3,4,5]
 print(len(length)) #크기 반환
+
+#리스트 비교
+i = [1,2,3]
+j = [1,2,3]
+print(i==j) #애초에 [1,2,3]에 대하여 i,j는 같은 래퍼런스니깐 당연히 성립
+
+#리스트 변수로 만들기
+num = 3
+n = [1,num]
+print(n) #이것도 가능
+
+#리스트 컴프리헨션
+com = [a+2 for a in i if a % 2 != 0] #원래는 [] 이거 필요한데
+print(com)
+com = sum(a+2 for a in i if a % 2 != 0) #함수 안에 들어가면 굳이 필요없음
+print(com)
