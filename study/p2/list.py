@@ -5,7 +5,7 @@ print(a[0]) #추출
 b = ['b', 5]
 print(a+b) #덧셈
 print(a * 2) #곱셈
-print(a[:2]) #슬라이싱
+print(a[:2]) #슬라이싱 : list[a:b] a부터 b-1까지 추출
 
 #값 수정
 a[0] = 3
