@@ -1,0 +1,10 @@
+n = int(input())
+n_num = set(map(int, input().split())) #set으로 변환과정 복잡도 O(n)
+m = int(input())
+m_num = list(map(int,input().split()))
+for i in m_num: #시간복잡도 O(m)
+    if i in n_num: #set에 대한 in 시간복잡도 평균 O(1)
+        print(1, end=" ")
+    else:
+        print(0, end=" ")
+#따라서 전체 시간복잡도 O(m+n)
