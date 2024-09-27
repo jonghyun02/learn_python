@@ -1,3 +1,7 @@
+tmp = set()
+tmp.add((1,2))
+tmp.add((1,2))
+print(tmp)
 class ClassA:
     def __init__(self, value):
         self.value = value
