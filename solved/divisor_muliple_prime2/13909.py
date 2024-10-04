@@ -1,5 +1,5 @@
 n = int(input())
-window = [1]*(n+1)
-for i in range(2,n+1):
-    for j in range(1,n//i+1):
-        sdf
+count = int(n**0.5)
+#약수의 개수가 홀수인 경우는 제곱수 말고 존재하지 않는다.
+#why? 약수의 대칭성 때문에 늘 짝수를 이루는데 제곱수는 중간에 대칭성을 이루는 약수가 같아서 1개만 추가되
+print(count)
